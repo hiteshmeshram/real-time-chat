@@ -18,6 +18,7 @@ wss.on('connection', function connection(ws) {
       }
     });
   });
+  //nothig just tp
 
   ws.send('Hello! Message From Server!!');
 });
